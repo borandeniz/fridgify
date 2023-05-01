@@ -86,7 +86,7 @@ if __name__ == '__main__':
     with col1:
         pass
     with col2:
-        st.markdown("<a href='https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'><h4 style='color: black;'>Check out the demo!</h4></a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'><h4 style='text-align: center; color: black; font-weight: light;'>Check out the demo!</h4></a>", unsafe_allow_html=True)
     with col3:
         pass
     
