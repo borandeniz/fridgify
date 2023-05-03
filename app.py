@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
     st.image(image)
 
-    st.markdown("<h4 style='text-align: center; color: black; font-weight: lighter;'>As Fridgify, we aim to reduce food waste by providing an intuitive and playful app that suggests recipes based on spare ingredients from users' fridges, making customized cooking easy and fun while reducing food waste and promoting sustainability.</h4>", unsafe_allow_html=True)
+    st.markdown("<h4 style='font-family: bahnschrift; text-align: center; color: black; font-weight: light;'>As Fridgify, we aim to reduce food waste by providing an intuitive and playful app that suggests recipes based on spare ingredients from users' fridges, making customized cooking easy and fun while reducing food waste and promoting sustainability.</h4>", unsafe_allow_html=True)
     
     # st.markdown("<style>a{text-align: center; color: black; font-weight: lighter;}</style>", unsafe_allow_html=True)
     
@@ -86,7 +86,7 @@ if __name__ == '__main__':
     with col1:
         pass
     with col2:
-        st.markdown("<a href='https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'><h4 style='text-align: center; color: black; font-weight: light;'>Check out the demo!</h4></a>", unsafe_allow_html=True)
+        st.markdown("<a href='https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'><h4 style='font-family:bahnschrift; text-align: center; color: black; font-weight: light;'>Check out the demo!</h4></a>", unsafe_allow_html=True)
     with col3:
         pass
     
