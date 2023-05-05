@@ -104,8 +104,3 @@ if __name__ == '__main__':
     # st.markdown("<h4 style='text-align: center; color: black; font-weight: lighter;'>Here are some screenshots from our app:</h4>", unsafe_allow_html=True)
 
     slideshow_swipeable(IMAGES)
-    
-    video_file = open('2023-05-05 03-24-51.mp4', 'rb')
-    video_bytes = video_file.read()
-
-    st.video(video_bytes)
