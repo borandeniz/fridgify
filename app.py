@@ -89,7 +89,10 @@ if __name__ == '__main__':
         st.markdown("<a href='https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'><h4 style='font-family:bahnschrift; text-align: center; color: black; font-weight: light;'>Check out the demo!</h4></a>", unsafe_allow_html=True)
     with col3:
         pass
-    
+    video_file = open('2023-05-05 03-24-51.mp4', 'rb')
+    video_bytes = video_file.read()
+
+    st.video(video_bytes)
     # st.markdown("<a href= 'https://www.figma.com/proto/5kvoTEoGkc2hp8UMAMnaSv/Yumm!-App?node-id=2167-639&scaling=scale-down&page-id=19%3A6&starting-point-node-id=2167%3A639'></a>", unsafe_allow_html=True)
 
     # st.title("Fridgify")
